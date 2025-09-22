@@ -82,4 +82,10 @@ body {
   background: lightgray;
   padding: 20px;
   height: 200px;
+  text-align: center;
+  font-style: italic;
 }
+  .a:hover{
+    color: red;
+  }
+ 
