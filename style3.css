@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;                  
+  grid-template-rows: auto 1fr auto;           
+  min-height: 100vh;                          
+}
+
+.header {
+  background: lightblue;
+  padding: 20px;
+}
+
+.body {
+  background: white;
+  padding: 20px;
+}
+
+.footer {
+  background: lightgray;
+  padding: 20px;
+}
